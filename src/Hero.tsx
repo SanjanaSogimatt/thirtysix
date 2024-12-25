@@ -136,13 +136,7 @@ function Hero() {
                     data[3].map((canvasdets, index) => <Canvas details={canvasdets} />)}
 
             </div>
-            {/* <div className='w-full relative mt-32 h-screen px-10'>
-                {faq.map((item, index) => (
-                    <FaqItem item={item} index={index} />
-                ))}
-                {showCanvas &&
-                    data[2].map((canvasdets, index) => <Canvas details={canvasdets} />)}
-            </div> */}
+           
         </div>
     )
 }

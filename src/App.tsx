@@ -20,7 +20,6 @@ function App() {
     <>
       <Navbar/>
       <Hero />
-      
     </>
   );
 }
