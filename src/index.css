@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Sulphur+Point:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sulphur+Point:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    color: white;
+    background-color: black;
+    
+}
+
+span.growing{
+    background-color: #fd2c2a;
+}
+.nav-hover-btn{
+    @apply p-4;
+}
+.floating-nav {
+    @apply bg-black rounded-lg border;
+  }
+border-bottom:after {
+    
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    width: calc(100% - 2rem);
+    height: 1px;
+    background-color:rgb(235, 235, 235);
+    opacity: 0.2;
+}
